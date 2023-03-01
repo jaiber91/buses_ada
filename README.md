@@ -1,17 +1,16 @@
-# Getting Started with Create React App
+# ADA BUSES
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Scripts
+
+Para correr el proyecto se debe ejecutar el comando:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Rutas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Las rutas se están manejando con ###`react-router-dom": 6.8.2`,
+
 
 
