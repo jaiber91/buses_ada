@@ -10,7 +10,8 @@ Para correr el proyecto se debe ejecutar el comando:
 
 ## Rutas
 
-Las rutas se están manejando con ### `react-router-dom": 6.8.2`,
+Las rutas se están manejando con 
+### `react-router-dom": 6.8.2`,
 
 
 
