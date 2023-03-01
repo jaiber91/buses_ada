@@ -1,9 +1,16 @@
 import React from 'react';
+import Navbar from '../../components/navbar/Nabvar';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+
 
 const Home = () => {
     return ( 
         <>
-        <h1>Hola Home</h1>
+        <Navbar/>
+        <Header />
+        <Footer />
+       
         </>
      );
 }

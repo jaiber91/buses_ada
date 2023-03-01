@@ -1,0 +1,30 @@
+@import  '../../index.css';
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-secundario);
+   
+    
+}
+.navbar img{
+    width: 4rem;
+}
+
+.navbar .navbar__items{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 40%;
+    list-style: none;
+    color: var(--text-color);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.navbar .navbar__items li:hover{
+    text-decoration: underline; 
+}
+
+.navbar .navbar__items img{
+    width: 2rem;
+}
