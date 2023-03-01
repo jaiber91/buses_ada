@@ -57,8 +57,8 @@ const data = [
   },
   {
     "id": 8,
-    "origen": "Medellin",
-    "destino": "Popayan",
+    "origen": "Medellín",
+    "destino": "Popayán",
     "cupos_disponibles": 30,
     "fecha_salida": "2023-05-15",
     "hora_salida": "8:00"

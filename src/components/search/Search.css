@@ -35,7 +35,7 @@
     color: var(--color-select);
     cursor: pointer;
 }
-.search__Noresult{
+.search__result{
     text-align: center;
     color: var(--alert-color);
 }

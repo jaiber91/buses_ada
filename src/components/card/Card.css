@@ -1,0 +1,39 @@
+@import  '../../index.css';
+
+.card{
+    display: flex;
+    flex-direction: column;
+   background-color: var(--btn-color-search);
+   border-radius: 20px;
+   margin-top: 5%;
+   align-items: center;
+   padding-bottom: 2rem;
+}
+.card h3{
+    color: var(--color-terciario);
+}
+.card__items{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card__items li {
+    color: var(--color-select);
+    font-weight: bold;
+}
+
+.card__items li p{
+    font-weight: 400;
+    margin: 0px;
+}
+.card button{
+    background-color: var(--color-terciario);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    height: 2rem;
+    border-radius: 20px;
+}
