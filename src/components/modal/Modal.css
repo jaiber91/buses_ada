@@ -1,3 +1,5 @@
+@import  '../../index.css';
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -5,7 +7,7 @@
     bottom: 0;
     width: 30%;
     max-width: 400px;
-    background-color: white;
+    background-color: var(--text-color);
     /* transform: translateX(100%); */
     transition: transform 0.3s ease-out;
   }
@@ -41,4 +43,36 @@
     opacity: 1;
     visibility: visible;
     transition: opacity 0.3s ease-out, visibility 0s linear 0s;
+  }
+
+  .sidebar__items{
+    list-style: none;
+    margin-top: 20%;
+  }
+  .sidebar__details{
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    background: var(--text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5%;
+  }
+  .sidebar__counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sidebar__counter input{
+    width: 50%;
+    margin-top: 14%;
+  }
+  .sidebar__delete{
+    display: flex;
+    align-items: center;
+  }
+  .sidebar__delete .sidebar__delete--btn{
+    background-color: var(--text-color);
+    
+    width: 100%;
+
   }
