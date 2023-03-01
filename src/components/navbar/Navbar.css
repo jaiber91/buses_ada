@@ -20,6 +20,10 @@
     color: var(--text-color);
     text-transform: capitalize;
     cursor: pointer;
+    
+}
+.navbar .navbar__items Link{
+    text-decoration: none;
 }
 .navbar .navbar__items li:hover{
     text-decoration: underline; 

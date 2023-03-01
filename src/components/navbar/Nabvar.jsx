@@ -1,26 +1,24 @@
-import React from 'react';
-import './Navbar.css'
-import imgBus from '../../assets/img/bus.png';
-import shoppingCar from '../../assets/icons/shoppingCar.png';
+import React from "react";
+import "./Navbar.css";
+import imgBus from "../../assets/img/bus.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    return ( 
-        <>
-        <nav className='navbar'>
-            <img src={imgBus} alt="logo" />
-            <ul className='navbar__items'>
-                <li>quienes somos</li>
-                <li>cancelaciones</li>
-                <li>rutas</li>
-                <li>ayuda</li>
-                <img src={shoppingCar} alt="shoping car" />
-            </ul>
+  return (
+    <>
+      <nav className="navbar">
+        <Link to="/">
+          <img src={imgBus} alt="logo" />
+        </Link>
+        <ul className="navbar__items">
+         
+          <li>cancelaciones</li>
+          <li>rutas</li>
+          <li>ayuda</li>
+        </ul>
+      </nav>
+    </>
+  );
+};
 
-
-        </nav>
-        
-        </>
-     );
-}
- 
 export default Navbar;
