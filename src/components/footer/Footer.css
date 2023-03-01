@@ -3,6 +3,6 @@
 .footer{
     display: flex;
     justify-content: center;
-    background-color: var(--color-footer);
+    background-color: var(--color-terciario);
     color: var(--text-color);
 }
